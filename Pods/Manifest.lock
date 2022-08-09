@@ -1,0 +1,28 @@
+PODS:
+  - CameraManager (5.1.3)
+  - TensorFlowLiteC (2.9.1):
+    - TensorFlowLiteC/Core (= 2.9.1)
+  - TensorFlowLiteC/Core (2.9.1)
+  - TensorFlowLiteSwift (2.9.1):
+    - TensorFlowLiteSwift/Core (= 2.9.1)
+  - TensorFlowLiteSwift/Core (2.9.1):
+    - TensorFlowLiteC (= 2.9.1)
+
+DEPENDENCIES:
+  - CameraManager (~> 5.1)
+  - TensorFlowLiteSwift
+
+SPEC REPOS:
+  trunk:
+    - CameraManager
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+SPEC CHECKSUMS:
+  CameraManager: 73936a52093081ba5e44914e8120ab511360f5d4
+  TensorFlowLiteC: 0a765860195fae345ca7398e33b07c80104c4b61
+  TensorFlowLiteSwift: 0b584ad1fac27c0015609056a5ab4e7692bd1af3
+
+PODFILE CHECKSUM: d77aeb8eaf10a7b9e1b17b158f891b29d6a4aa49
+
+COCOAPODS: 1.11.3
