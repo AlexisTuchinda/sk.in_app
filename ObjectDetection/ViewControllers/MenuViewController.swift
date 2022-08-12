@@ -12,8 +12,20 @@ import SafariServices
 
 class MenuViewController: UIViewController
 {
+    var urltext = ""
+    
     override func viewDidLoad() {
-      super.viewDidLoad()
+        super.viewDidLoad()
+        if let path = Bundle.main.path(forResource: "data", ofType: "txt", inDirectory: "files"){
+            do {
+                let data = try String(contentsOfFile: path, encoding: .utf8)
+                let myStrings = data.components(separatedBy: .newlines)
+                urltext = myStrings[1]
+            } catch {
+                print(error)
+            }
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,8 +37,9 @@ class MenuViewController: UIViewController
       super.viewWillAppear(animated)
     }
     
+    
     @IBAction func uploadButtonPressed(_ sender: UIButton) {
-        if let url = URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSfjLOjj1Wx5rZxGbPWMhM-MZklr8z8r5Fce5up7fBd-V8hsrQ/viewform"){
+        if let url = URL(string: urltext){
             let config = SFSafariViewController.Configuration()
             config.entersReaderIfAvailable = true
             

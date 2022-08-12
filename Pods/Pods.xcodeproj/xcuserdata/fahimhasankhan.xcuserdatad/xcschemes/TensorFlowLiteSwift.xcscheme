@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1314F4B4B67460E64EAA7F5BC410226"
-               BuildableName = "Pods_ObjectDetection.framework"
-               BlueprintName = "Pods-ObjectDetection"
+               BlueprintIdentifier = "10418167F619D6DA72BADAD10F9EC02B"
+               BuildableName = "TensorFlowLite.framework"
+               BlueprintName = "TensorFlowLiteSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

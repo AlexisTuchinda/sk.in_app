@@ -14,8 +14,20 @@ class HelpViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
 {
     @IBOutlet var webView: WKWebView!
     
+    var urltext = ""
+    
     override func viewDidLoad() {
             super.viewDidLoad()
+        
+            if let path = Bundle.main.path(forResource: "data", ofType: "txt", inDirectory: "files"){
+                do {
+                    let data = try String(contentsOfFile: path, encoding: .utf8)
+                    let myStrings = data.components(separatedBy: .newlines)
+                    urltext = myStrings[3]
+                } catch {
+                    print(error)
+                }
+            }
 
             webView.uiDelegate = self
             webView.navigationDelegate = self
@@ -36,7 +48,7 @@ class HelpViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
     }
        
     @IBAction func helpButtonPressed(_ sender: UIButton) {
-        if let url = URL(string: "https://sites.google.com/ucsc.edu/sk-in/help"){
+        if let url = URL(string: urltext){
             let config = SFSafariViewController.Configuration()
             config.entersReaderIfAvailable = true
             
