@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = TensorFlowLiteC;
+			productName = TensorFlowLiteC;
 		};
 /* End PBXAggregateTarget section */
 
@@ -71,11 +72,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03726370F53BACBD0CADECD6D645704A /* TensorFlowLiteC.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TensorFlowLiteC.xcframework; path = Frameworks/TensorFlowLiteC.xcframework; sourceTree = "<group>"; };
+		03726370F53BACBD0CADECD6D645704A /* TensorFlowLiteC.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TensorFlowLiteC.xcframework; path = Frameworks/TensorFlowLiteC.xcframework; sourceTree = "<group>"; };
 		09C0C6CBAA90E81819757F45CE9C8A76 /* Tensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tensor.swift; path = tensorflow/lite/swift/Sources/Tensor.swift; sourceTree = "<group>"; };
 		0AE2757A7D31507BC74899AB62FF350A /* CameraManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CameraManager-Info.plist"; sourceTree = "<group>"; };
 		1BECF4629BA8E47C672A04BF7582DF92 /* InterpreterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterpreterError.swift; path = tensorflow/lite/swift/Sources/InterpreterError.swift; sourceTree = "<group>"; };
-		1E45A360335DFDC846BDF8F709C3A284 /* CameraManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CameraManager; path = CameraManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E45A360335DFDC846BDF8F709C3A284 /* CameraManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CameraManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E81D90AFFEF0F44C07B264872E25451 /* CameraManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraManager-dummy.m"; sourceTree = "<group>"; };
 		3753A7090AE554D030D07F116973EB7C /* TensorFlowLiteC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteC.debug.xcconfig; sourceTree = "<group>"; };
 		3B6D0E335F7C89C7C74634C3369670D4 /* QuantizationParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuantizationParameters.swift; path = tensorflow/lite/swift/Sources/QuantizationParameters.swift; sourceTree = "<group>"; };
@@ -92,7 +93,7 @@
 		804D6802F3057545061D532723B303DF /* TensorFlowLite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorFlowLite.swift; path = tensorflow/lite/swift/Sources/TensorFlowLite.swift; sourceTree = "<group>"; };
 		8DEE7823EFAC5996B10BD374D790142B /* CameraManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraManager-umbrella.h"; sourceTree = "<group>"; };
 		98596539C9222BEC0074D27FB1B9A683 /* Pods-ObjectDetection-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectDetection-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A35540D86507B2D7B7275088ECA10DAF /* TensorFlowLiteSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TensorFlowLiteSwift.modulemap; sourceTree = "<group>"; };
 		A5ECBE368B835D403A534F04F0727482 /* Pods-ObjectDetection-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectDetection-Info.plist"; sourceTree = "<group>"; };
 		A61D0D7F5B6DAF1465BDDD88ECA673B0 /* Pods-ObjectDetection */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ObjectDetection"; path = Pods_ObjectDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +107,7 @@
 		C531EA8B96577CB68BB31A1FBC7C870D /* CameraManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraManager.debug.xcconfig; sourceTree = "<group>"; };
 		CBE41526A88B5A324B90128AB1D12817 /* Pods-ObjectDetection-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjectDetection-frameworks.sh"; sourceTree = "<group>"; };
 		D9B91F562350E3956AB4ED56518DEFC0 /* TensorFlowLiteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteSwift.release.xcconfig; sourceTree = "<group>"; };
-		E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TensorFlowLiteSwift; path = TensorFlowLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TensorFlowLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38B031437D76674A373C436DFF85FAE /* CameraManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraManager.swift; path = Sources/CameraManager.swift; sourceTree = "<group>"; };
 		F31D5BBDAC64E802B77B2B897562019A /* Pods-ObjectDetection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjectDetection.modulemap"; sourceTree = "<group>"; };
 		FF06C9763012E15497ACC5796A9DF4B0 /* Pods-ObjectDetection-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjectDetection-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -147,7 +148,6 @@
 				58E4041AC207958DC58CD6D453006C30 /* Core */,
 				35FC4612ECE2598A154B7BCAAFDE438C /* Support Files */,
 			);
-			name = TensorFlowLiteSwift;
 			path = TensorFlowLiteSwift;
 			sourceTree = "<group>";
 		};
@@ -237,9 +237,9 @@
 		66CA27E64578C1B09E7466FE71798816 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E45A360335DFDC846BDF8F709C3A284 /* CameraManager */,
+				1E45A360335DFDC846BDF8F709C3A284 /* CameraManager.framework */,
 				A61D0D7F5B6DAF1465BDDD88ECA673B0 /* Pods-ObjectDetection */,
-				E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */,
+				E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,7 +273,6 @@
 				E38B031437D76674A373C436DFF85FAE /* CameraManager.swift */,
 				79020526C80CB87BEBE754E9EAA796FF /* Support Files */,
 			);
-			name = CameraManager;
 			path = CameraManager;
 			sourceTree = "<group>";
 		};
@@ -291,7 +290,6 @@
 				7CAA227B355BA873F83765BDDFB91B4E /* Core */,
 				59669BF822EDBE498B5622E1758FC6F9 /* Support Files */,
 			);
-			name = TensorFlowLiteC;
 			path = TensorFlowLiteC;
 			sourceTree = "<group>";
 		};
@@ -360,7 +358,7 @@
 			);
 			name = TensorFlowLiteSwift;
 			productName = TensorFlowLite;
-			productReference = E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */;
+			productReference = E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8BB91AB80BFCF849745808EDF709B66D /* CameraManager */ = {
@@ -378,7 +376,7 @@
 			);
 			name = CameraManager;
 			productName = CameraManager;
-			productReference = 1E45A360335DFDC846BDF8F709C3A284 /* CameraManager */;
+			productReference = 1E45A360335DFDC846BDF8F709C3A284 /* CameraManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F1314F4B4B67460E64EAA7F5BC410226 /* Pods-ObjectDetection */ = {
@@ -409,7 +407,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1340;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -555,7 +553,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -756,7 +754,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CameraManager/CameraManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CameraManager/CameraManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -790,7 +788,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CameraManager/CameraManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CameraManager/CameraManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -824,7 +822,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TensorFlowLiteSwift/TensorFlowLiteSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -888,7 +886,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -905,7 +903,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
