@@ -45,7 +45,7 @@
 		AA16E59E2180822B00D9E153 /* CurvedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
 		AA756E642150C996004BB0BC /* CameraFeedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFeedManager.swift; sourceTree = "<group>"; };
 		AA756E692150CE88004BB0BC /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
-		AA9AC59B212D39FC000B4E9D /* ObjectDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9AC59B212D39FC000B4E9D /* skin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9AC59E212D39FC000B4E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA9AC5A3212D39FC000B4E9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA9AC5A5212D39FD000B4E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		AA9AC59C212D39FC000B4E9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA9AC59B212D39FC000B4E9D /* ObjectDetection.app */,
+				AA9AC59B212D39FC000B4E9D /* skin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,9 +198,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA9AC59A212D39FC000B4E9D /* ObjectDetection */ = {
+		AA9AC59A212D39FC000B4E9D /* skin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA9AC5C3212D39FD000B4E9D /* Build configuration list for PBXNativeTarget "ObjectDetection" */;
+			buildConfigurationList = AA9AC5C3212D39FD000B4E9D /* Build configuration list for PBXNativeTarget "skin" */;
 			buildPhases = (
 				CFF4608024192D0793C642C4 /* [CP] Check Pods Manifest.lock */,
 				AA055D8A21622F7C00B25948 /* ShellScript */,
@@ -213,9 +213,9 @@
 			);
 			dependencies = (
 			);
-			name = ObjectDetection;
+			name = skin;
 			productName = ObjectDetection;
-			productReference = AA9AC59B212D39FC000B4E9D /* ObjectDetection.app */;
+			productReference = AA9AC59B212D39FC000B4E9D /* skin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -247,7 +247,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA9AC59A212D39FC000B4E9D /* ObjectDetection */,
+				AA9AC59A212D39FC000B4E9D /* skin */,
 			);
 		};
 /* End PBXProject section */
@@ -499,7 +499,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = YNVC3X2W4J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,7 +531,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = YNVC3X2W4J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA9AC5C3212D39FD000B4E9D /* Build configuration list for PBXNativeTarget "ObjectDetection" */ = {
+		AA9AC5C3212D39FD000B4E9D /* Build configuration list for PBXNativeTarget "skin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA9AC5C4212D39FD000B4E9D /* Debug */,
